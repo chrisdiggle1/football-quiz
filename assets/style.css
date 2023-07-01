@@ -93,3 +93,18 @@ div ul {
 .hidden {
     display: none;
 }
+
+.question-container hidden {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    max-width: 600px;
+    font-size: 1rem;
+    border: 0.3rem solid;
+    background: azure;
+    margin: 75px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    display: block;
+    text-align: center;
+}
