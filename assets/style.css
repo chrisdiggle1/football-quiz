@@ -50,6 +50,7 @@ h2 {
     color: rgb(0, 0, 94);
 }
 
+/* Home page */
 .home-area {
     display: flex;
     margin-bottom: 0.5rem;
@@ -90,10 +91,16 @@ div ul {
     border-color: black;
 }
 
+#start-btn:hover {
+    color: azure;
+    background: rgb(0, 0, 94);
+}
+
 .hidden {
     display: none;
 }
 
+/* Game area */
 .question-container hidden {
     display: flex;
     margin-bottom: 0.5rem;
@@ -137,10 +144,13 @@ div ul {
     padding: 20px 0;
 }
 
+/* Answer button styling */
 .btn {
     background: azure;
     color: rgb(0, 0, 94);
-    font-weight: 800;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 1px;
     width: 100%;
     border: 2px solid black;
     padding: 10px;
@@ -148,4 +158,24 @@ div ul {
     text-align: center;
     border-radius: 5px;
     cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background: rgb(0, 0, 94);
+    color: azure;
+}
+
+#nxt-btn {
+    background: rgb(0, 0, 94);
+    color: azure;
+    margin: 20px auto 0;
+    font-weight: 600;
+    width: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 2px;
+    display: none;
 }
