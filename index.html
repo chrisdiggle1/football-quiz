@@ -23,7 +23,7 @@
     <!--homepage area-->
     <section class="quiz-container" id="quiz-container">
         <div class="home-area">
-            <h2 id="question">How well do you know your football?</h2>
+            <h2>How well do you know your football?</h2>
             <p><strong>Lets find out!</strong></p>
             <ul>
                 <li>Click the 'Start Quiz' button to start the quiz</li>
@@ -31,9 +31,23 @@
                 <li>The correct answer will display Green and incorrect Red</li>
                 <li>At the end you will be shown your final score and the option to play again</li>
             </ul>
-            <button aria-label="Start Quiz button" id="start-btn">Start Quiz!</button>
+            <button aria-label="Start Quiz button" id="start-btn" class="start-btn btn">Start Quiz!</button>
         </div>
     </section>
 
+     <!--game area-->   
+    <section>
+        <div class="question-container hidden">
+            <h3 id="question">The Question will display here</h3>
+            <div id="ans-btn">
+                <button arial-label="Answer button 1" class="btn">Answer 1</button>
+                <button arial-label="Answer button 2" class="btn">Answer 2</button>
+                <button arial-label="Answer button 3" class="btn">Answer 3</button>
+                <button arial-label="Answer button 4" class="btn">Answer 4</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/script.js"></script>
 </body>
 </html>

@@ -89,3 +89,7 @@ div ul {
     border: 0.3rem solid;
     border-color: black;
 }
+
+.hidden {
+    display: none;
+}
