@@ -101,7 +101,7 @@ div ul {
 }
 
 /* Game area */
-.question-container hidden {
+.question-container.hidden {
     display: flex;
     margin-bottom: 0.5rem;
     width: 100%;
@@ -181,3 +181,11 @@ div ul {
     display: none;
 }
 
+/* Correct + Incorrect answers */
+.correct {
+    background: rgb(89, 197, 89);
+}
+
+.incorrect {
+    background: rgb(221, 72, 72);
+}
