@@ -50,4 +50,14 @@ function resetState() {
     }
 }
 
+function selectAnswer(event) {
+    const selectedBtn = event.target;
+    const isCorrect = selectedBtn.getAttribute('data-correct') ==='true';
+    if (isCorrect) {
+        selectedBtn.classList.add('correct');
+    } else {
+        selectedBtn.classList.add('incorrect');
+    }
+}
+
 startQuiz();
