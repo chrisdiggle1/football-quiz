@@ -24,9 +24,9 @@ header {
     font-size: 1.5rem;
     border: 0.3rem solid;
     background: azure;
-    margin: 75px auto 0;
+    margin: 50px auto 0;
     border-radius: 10px;
-    padding: 30px;
+    padding: 10px;
     opacity: 0.9;
 }
 
@@ -124,9 +124,9 @@ div ul {
     font-size: 1rem;
     border: 0.3rem solid;
     background: azure;
-    margin: 75px auto 0;
+    margin: 50px auto 0;
     border-radius: 10px;
-    padding: 30px;
+    padding: 15px;
     display: block;
     text-align: center;
     opacity: 0.9;
@@ -148,7 +148,7 @@ div ul {
 .btn {
     background: azure;
     color: rgb(0, 0, 94);
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 900;
     letter-spacing: 1px;
     width: 100%;
@@ -188,4 +188,19 @@ div ul {
 
 .incorrect {
     background: rgb(221, 72, 72);
+}
+
+.score-area {
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 200;
+    display: inline-flex;
+}
+
+.right {
+    color: rgb(23, 102, 23);
+}
+
+.wrong {
+    color: rgb(151, 17, 17);
 }
