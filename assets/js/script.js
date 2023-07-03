@@ -88,7 +88,14 @@ document.addEventListener('DOMContentLoaded', function () {
         nextButton.style.display = 'block'
     }
 
-    function handleNextButton() {
+    function showScore() {
+        resetState();
+        questionElement.innerHTML = `You scored ${score} goals from ${questions.length} shots!`;
+        nextButton.innerHTML = 'Fancy another shot?';
+        nextButton.style.display = 'block'
+    }
+
+    function clickNextButton() {
         currentQuestionIndex++;
         if(currentQuestionIndex < questions.length) {
             showQuestion();
@@ -99,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     nextButton.addEventListener('click', () => {
         if(currentQuestionIndex < questions.length) {
-            handleNextButton();
+            clickNextButton();
         }else{
             startQuiz();
         }
