@@ -75,6 +75,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const isCorrect = selectedBtn.getAttribute('data-correct') === 'true';
         if (isCorrect) {
             selectedBtn.classList.add('correct');
+            score++;
         } else {
             selectedBtn.classList.add('incorrect');
         }
@@ -86,6 +87,24 @@ document.addEventListener('DOMContentLoaded', function () {
         });
         nextButton.style.display = 'block'
     }
+
+    function handleNextButton() {
+        currentQuestionIndex++;
+        if(currentQuestionIndex < questions.length) {
+            showQuestion();
+        } else {
+            showScore();
+        }
+    }
+
+    nextButton.addEventListener('click', () => {
+        if(currentQuestionIndex < questions.length) {
+            handleNextButton();
+        }else{
+            startQuiz();
+        }
+    })
+
 });
 
 startQuiz();
