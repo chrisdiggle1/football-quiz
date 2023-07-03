@@ -161,7 +161,7 @@ div ul {
     transition: all 0.3s;
 }
 
-.btn:hover {
+.btn:hover:not([disabled]) {
     background: rgb(0, 0, 94);
     color: azure;
 }
