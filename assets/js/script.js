@@ -7,9 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const answerButtons = document.getElementById('ans-btn');
     const nextButton = document.getElementById('nxt-btn');
 
-
-
-    //Variable to track the score index.
+    //Variables to track the score index.
     let currentQuestionIndex = 0;
     let score = 0;
 
@@ -76,8 +74,10 @@ document.addEventListener('DOMContentLoaded', function () {
         if (isCorrect) {
             selectedBtn.classList.add('correct');
             score++;
+            incrementScore(); 
         } else {
             selectedBtn.classList.add('incorrect');
+            incrementWrongAnswer();
         }
         Array.from(answerButtons.children).forEach(button => {
             if (button.dataset.correct === 'true') {
@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
             button.disabled = true;
         });
-        nextButton.style.display = 'block'
+        nextButton.style.display = 'block';
     }
 
     function showScore() {
@@ -111,6 +111,16 @@ document.addEventListener('DOMContentLoaded', function () {
             startQuiz();
         }
     })
+
+    function incrementScore() {
+        let oldScore = parseInt(document.getElementById('right-counter').innerText);
+        document.getElementById('right-counter').innerText = ++oldScore;
+    }
+
+    function incrementWrongAnswer() {
+        let oldScore = parseInt(document.getElementById('wrong-counter').innerText);
+        document.getElementById('wrong-counter').innerText = ++oldScore;
+    }
 
 });
 
