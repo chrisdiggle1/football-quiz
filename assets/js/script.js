@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const questionElement = document.getElementById('question');
     const answerButtons = document.getElementById('ans-btn');
     const nextButton = document.getElementById('nxt-btn');
+    const rightCounter = document.getElementById('right-counter');
+    const wrongCounter = document.getElementById('wrong-counter');
 
     //Variables to track the score index.
     let currentQuestionIndex = 0;
@@ -28,6 +30,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
         currentQuestionIndex = 0;
         score = 0;
+        rightCounter.innerText = 0;
+        wrongCounter.innerText = 0;
         nextButton.innerHTML = 'Next Question';
         showQuestion();
     }
