@@ -229,3 +229,79 @@ div ul {
         font-size: 1.5em;
     }
 }
+
+/* For small screen sizes from 450px wide and down */
+
+@media screen and (max-width: 450px) {
+    .home-area,
+    .question-container.hidden,
+    .quiz {
+        margin: 20px auto 0;
+    }
+
+    h1, h2 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    #start-btn {
+        padding: 10px;
+        font-size: 1em;
+    }
+
+    .btn {
+        font-size: 18px;
+        padding: 8px;
+        margin: 8px 0;
+    }
+
+    .score-area {
+        font-size: 1.1rem;
+    }
+
+    #nxt-btn {
+        font-size: 16px;
+        width: 150px;
+    }
+}
+
+/* For smaller screen sizes from 380px wide and down */
+
+@media screen and (max-width: 380px) {
+    .home-area,
+    .question-container.hidden,
+    .quiz {
+        margin: 15px auto 0;
+    }
+
+    h1, h2 {
+        font-size: 1em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    #start-btn {
+        padding: 8px;
+        font-size: 0.9em;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 6px;
+        margin: 6px 0;
+    }
+
+    .score-area {
+        font-size: 1rem;
+    }
+
+    #nxt-btn {
+        font-size: 14px;
+        width: 120px;
+    }
+}
