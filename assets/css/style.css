@@ -219,26 +219,27 @@ div ul {
     font-size: 25px;
     letter-spacing: 15px;
     text-align: center;
-  }
-  
-.socials > li {
+}
+
+.socials>li {
     display: inline;
     text-align: center;
-  }
-  
+}
+
 .socials i {
     color: black;
     font-size: 120%;
     margin: 1px;
     padding: 20px;
     text-align: center;
-  }
+}
 
 /*Media queries */
 
 /* For large to medium screen sizes from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
+
     .home-area,
     .question-container.hidden,
     .quiz {
@@ -249,13 +250,15 @@ div ul {
 /* For meduim screen sizes from 850px wide and down */
 
 @media screen and (max-width: 850px) {
+
     .home-area,
     .question-container.hidden,
     .quiz {
         margin: 30px auto 0;
     }
 
-    h1, h2 {
+    h1,
+    h2 {
         font-size: 1.5em;
     }
 }
@@ -263,13 +266,15 @@ div ul {
 /* For small screen sizes from 450px wide and down */
 
 @media screen and (max-width: 450px) {
+
     .home-area,
     .question-container.hidden,
     .quiz {
         margin: 20px auto 0;
     }
 
-    h1, h2 {
+    h1,
+    h2 {
         font-size: 1.2em;
     }
 
@@ -301,13 +306,15 @@ div ul {
 /* For smaller screen sizes from 380px wide and down */
 
 @media screen and (max-width: 380px) {
+
     .home-area,
     .question-container.hidden,
     .quiz {
         margin: 15px auto 0;
     }
 
-    h1, h2 {
+    h1,
+    h2 {
         font-size: 1em;
     }
 
