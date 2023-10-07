@@ -234,6 +234,27 @@ div ul {
     text-align: center;
 }
 
+/* 404 error page */
+
+#error {
+    line-height: 70px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 100px;
+    margin-top: 60%;
+    }
+
+#error h1 {
+    font-size: 3rem;
+}
+
+#error h2 {
+    font-size: 3rem;
+    font-family: belanosima, sans-serif;
+    color: rgb(0, 0, 94);
+}
+
 /*Media queries */
 
 /* For large to medium screen sizes from 1200px wide and down */
