@@ -78,3 +78,75 @@ My future plans for the site are to add a lot more questions, with the questions
 
 ## Design
 
+### Website Structure
+
+### Balsamiq Wireframes
+
+<details>
+<summary>Questions Page Desktop</summary>
+<img src="documentation/questions-desktop.png">
+</details>
+
+<br>
+
+<details>
+<summary>Questions Page Tablet</summary>
+<img src="documentation/questions-tablet.png">
+</details>
+
+<br>
+
+<details>
+<summary>Questions Page Mobile</summary>
+<img src="documentation/questions-mobile.png">
+</details>
+
+<br>
+
+<details>
+<summary>Score Page Desktop</summary>
+<img src="documentation/score-desktop.png">
+</details>
+
+<br>
+
+<details>
+<summary>Score Page Tablet</summary>
+<img src="documentation/score-tablet.png">
+</details>
+
+<br>
+
+<details>
+<summary>Score Page Mobile</summary>
+<img src="documentation/score-mobile.png">
+</details>
+
+<br>
+
+### Colour Scheme
+
+The colour scheme for the qame are were dicatated by the green background representing a football pitch. The white and blue I found were best for visualisation overall to display the questions and highlighting the correct and incorrect answers using red and green.
+
+![palette of the colours used on the site](/documentation/colour-scheme.png)
+
+### Typography
+
+The two fonts used in the site have been sourced from the Google Fonts library: 
+
+Belanosima for the main heading
+
+![image of the font used for the main quiz header](/documentation/heading-font.png)
+
+Poppins for the questions and answers
+
+![image of the font used for the questions and answers](/documentation/text-font.png)
+
+### Imagery
+
+The background image of a football, pitch and players boots was sourced from unsplash and the creator is [Emilio Garcia](https://unsplash.com/photos/AWdCgDDedH0)
+
+## Page Features
+
+### Landing Page
+
