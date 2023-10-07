@@ -150,3 +150,78 @@ The background image of a football, pitch and players boots was sourced from uns
 
 ### Landing Page
 
+The landing page contains the below features - 
+
+* The main quiz header
+* Information on the quiz, what to expect and how it works
+* The button to start the quiz
+* Links to social media websites
+
+<details>
+<summary>View The Landing Page</summary>
+<img src="documentation/landing-page.png">
+</details>
+
+### Quiz Area 
+
+The Quiz area contains the below features - 
+
+* The main quiz header
+* The number of the question followed by the question itself
+* Four possible answers
+* The answers will highlight green of correct and red if incorrect
+* A correct and Incorrect score which increment by one depending on the answer you give
+* The 'Next Question' button once an answer has been selected
+* Links to social media websites
+
+<details>
+<summary>View The Quiz Area</summary>
+<img src="documentation/quiz-area.png">
+</details>
+
+### Final Score Screen
+
+The final Score Screen displays the below features - 
+
+* The main quiz header
+* A statement confirming how many goals (answers) you scored from 10 shots (questions)
+* The total score tally showing 'correct' answers in green and 'incorrect' in red
+* Button asking the user if they want anther shot at the quiz
+* Links to social media websites
+
+<details>
+<summary>View the Final Score Screen</summary>
+<img src="documentation/final-score.png">
+</details>
+
+### Social Links
+
+Links to social media sites are in the footer area. The icons of Instagram, Facebook, Twitter and Youtube are all clickable and open a new tab once clicked. Social media links have been used to serve the purpose of giving the user the chance of potentially reaching out and connect with the author of the site. As the website has educational purposes only, the links open the homepages of the respective social media websites.
+
+<details>
+<summary>View the Social Links</summary>
+<img src="documentation/social-media.png">
+</details>
+
+### 404 Page
+
+A basic custom 404.html error page has been included. The page informs the user that the URL they have input is incorrect by displaying the message: 404 - Page Not Found! Please check the URL is correct. I have inlcuded a link that takes the user back to the landing page of the site.
+
+<details>
+<summary>View the 404 Page</summary>
+<img src="documentation/404-error.png">
+</details>
+
+### Favicon
+
+I have added a Favicon to site as a little extra touch to display a little image on the tab. The Favicon contains the letters 'FQ' for football quiz and uses the blue and white colours that are used in the question areaof the site.
+
+<details>
+<summary>View the Favicon</summary>
+<img src="documentation/favicon.png">
+</details>
+
+## Technologies Used
+
+### Languages
+
