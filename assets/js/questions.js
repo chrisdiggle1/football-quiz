@@ -12,7 +12,7 @@ const questions = [
         ]
     },
     {
-        question: "How many countries have won the World Cup",
+        question: "How many countries have won the World Cup?",
         answers: [
             { text: "8", correct: true },
             { text: "10", correct: false },
@@ -84,7 +84,7 @@ const questions = [
         ]
     },
     {
-        question: "How many ballons d’or did Lionel Messi receive",
+        question: "How many ballons d’or did Lionel Messi receive?",
         answers: [
             { text: "4", correct: false },
             { text: "6", correct: false },
