@@ -75,7 +75,7 @@ const questions = [
         ]
     },
     {
-        question: "Who won the UEFA Europ Championship in 2020?",
+        question: "Who won the UEFA European Championship in 2020?",
         answers: [
             { text: "France", correct: false },
             { text: "Italy", correct: true },
