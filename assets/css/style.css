@@ -243,7 +243,7 @@ div ul {
     margin-right: 10%;
     padding-top: 100px;
     margin-top: 60%;
-    }
+}
 
 #error h1 {
     font-size: 3rem;
@@ -325,41 +325,92 @@ div ul {
 }
 
 /* For smaller screen sizes from 380px wide and down */
-
 @media screen and (max-width: 380px) {
 
     .home-area,
     .question-container.hidden,
     .quiz {
+        margin: 10px auto 0;
+        padding: 10px;
+    }
+
+    header {
+        font-size: 25px;
+        border: 0.3rem solid;
+        background: azure;
         margin: 15px auto 0;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .quiz h3 {
+        font-size: 18px;
+        color: rgb(0, 0, 94);
+        font-weight: 600;
+        border-bottom: 1px solid;
+        padding-bottom: 15px;
     }
 
     h1,
     h2 {
-        font-size: 1em;
+        font-size: 27px;
+        padding: initial;
     }
 
     p {
-        font-size: 0.9em;
+        font-size: 25px;
+        padding-bottom: 5px;
+        padding-top: initial;
+    }
+
+    div ul {
+        font-size: 15px;
+        line-height: 30px;
+        margin-left: -19px;
     }
 
     #start-btn {
-        padding: 8px;
-        font-size: 0.9em;
+        padding: 6px;
+        font-size: 0.8em;
     }
 
     .btn {
-        font-size: 16px;
-        padding: 6px;
-        margin: 6px 0;
+        font-size: 14px;
+        padding: 5px;
+        margin: 5px 0;
     }
 
     .score-area {
-        font-size: 1rem;
+        font-size: 25px;
     }
 
     #nxt-btn {
-        font-size: 14px;
-        width: 120px;
+        font-size: 13px;
+        width: 115px;
     }
+
+    #footer {
+        margin-top: 5px;
+    }
+
+    .socials {
+        margin: 5px;
+        font-size: 35px;
+        letter-spacing: 25px;
+    }
+
+    .socials i {
+        font-size: 70%;
+        padding: 4px;
+    }
+
+    #error {
+        line-height: 70px;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-top: 100px;
+        margin: auto;
+    }
+
 }
