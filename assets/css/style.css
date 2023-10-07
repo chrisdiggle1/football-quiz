@@ -204,6 +204,36 @@ div ul {
     color: rgb(151, 17, 17);
 }
 
+/* footer */
+#footer {
+    bottom: 0;
+    font-size: 20px;
+    height: 12.5rem;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.socials {
+    margin: 65px;
+    font-size: 25px;
+    letter-spacing: 15px;
+    text-align: center;
+  }
+  
+.socials > li {
+    display: inline;
+    text-align: center;
+  }
+  
+.socials i {
+    color: black;
+    font-size: 120%;
+    margin: 1px;
+    padding: 20px;
+    text-align: center;
+  }
+
 /*Media queries */
 
 /* For large to medium screen sizes from 1200px wide and down */
