@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Poppins&display=swap');
 
 * {
-    box-sizing: border-box;
     font-family: poppins, sans-serif;
     margin: 0;
 }
@@ -18,15 +17,13 @@ body {
 }
 
 /* header styling */
-
 header {
-    font-size: 1.5rem;
+    font-size: 25px;
     border: 0.3rem solid;
     background: azure;
     margin: 50px auto 0;
     border-radius: 10px;
     padding: 10px;
-    opacity: 0.9;
 }
 
 h1 {
@@ -118,17 +115,15 @@ div ul {
 .quiz {
     display: flex;
     margin-bottom: 0.5rem;
-    width: 100%;
     max-width: 600px;
     font-size: 1rem;
     border: 0.3rem solid;
     background: azure;
-    margin: 50px auto 0;
+    margin: 20px auto 0;
     border-radius: 10px;
     padding: 15px;
     display: block;
     text-align: center;
-    opacity: 0.9;
 }
 
 .quiz h3 {
@@ -136,7 +131,6 @@ div ul {
     color: rgb(0, 0, 94);
     font-weight: 600;
     border-bottom: 1px solid;
-    padding-bottom: 25px;
 }
 
 #ans-btn {
@@ -169,7 +163,7 @@ div ul {
 #nxt-btn {
     background: rgb(0, 0, 94);
     color: azure;
-    margin: 20px auto 0;
+    margin: -10px auto 0;
     font-weight: 600;
     width: 200px;
     border-radius: 5px;
@@ -235,7 +229,6 @@ div ul {
 }
 
 /* 404 error page */
-
 #error {
     line-height: 70px;
     text-align: center;
@@ -259,6 +252,7 @@ div ul {
 
 /* For large screen sizes from 1500px wide and down */
 @media screen and (max-width: 1500px) {
+
     .home-area,
     .question-container.hidden,
     .quiz {
@@ -267,7 +261,8 @@ div ul {
         max-width: 100rem;
     }
 
-    h1, h2 {
+    h1,
+    h2 {
         font-size: 1.5em;
     }
 
