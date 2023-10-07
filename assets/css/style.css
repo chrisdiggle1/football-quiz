@@ -299,6 +299,7 @@ div ul {
     #footer {
         font-size: 18px;
         height: auto;
+        position: relative;
     }
 
     .socials {
@@ -368,6 +369,7 @@ div ul {
     #footer {
         font-size: 18px;
         height: auto;
+        position: relative;
     }
 
     .socials {
@@ -405,6 +407,7 @@ div ul {
     #footer {
         font-size: 16px;
         height: auto;
+        position: relative;
     }
 
     .socials {
@@ -471,6 +474,7 @@ div ul {
     #footer {
         font-size: 14px;
         height: auto;
+        position: relative;
     }
 
     .socials {
@@ -553,6 +557,7 @@ div ul {
 
     #footer {
         margin-top: 5px;
+        position: relative;
     }
 
     .socials {
