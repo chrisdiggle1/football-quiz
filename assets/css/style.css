@@ -257,6 +257,78 @@ div ul {
 
 /*Media queries */
 
+/* For large screen sizes from 1500px wide and down */
+@media screen and (max-width: 1500px) {
+    .home-area,
+    .question-container.hidden,
+    .quiz {
+        margin: 10px auto 0;
+        padding: 10px;
+        max-width: 100rem;
+    }
+
+    h1, h2 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    #start-btn {
+        padding: 10px;
+        font-size: 1em;
+    }
+
+    #start-btn {
+        padding: 10px;
+        font-size: 1em;
+    }
+
+    .btn {
+        font-size: 18px;
+        padding: 8px;
+        margin: 8px 0;
+    }
+
+    .score-area {
+        font-size: 35px;
+    }
+
+    #nxt-btn {
+        font-size: 20px;
+        width: 40%;
+        border-radius: 10px;
+    }
+
+    #footer {
+        font-size: 18px;
+        height: auto;
+    }
+
+    .socials {
+        margin: 20px;
+        font-size: 20px;
+        letter-spacing: 12px;
+    }
+
+    .socials i {
+        font-size: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    #error {
+        line-height: 70px;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-top: 0%;
+        margin-top: 60%;
+    }
+
+}
+
 /* For large to medium screen sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
 
