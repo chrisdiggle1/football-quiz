@@ -348,3 +348,43 @@ I have added a Favicon to site as a little extra touch to display a little image
 ## **Bugs**
 
 ### **Resolved Bugs**
+
+The site was opening up straight to the questions and answer pages and not the landing page.
+
+I added in an Event Listener for DOMContentLoaded to prevent the startQuiz function from
+executing before the HTML has finished loading.
+
+## **Deployment**
+
+1. Login to GitHub.
+2. Select the repository for the site you wish to deploy.
+3. Click on "Settings" on the navigation bar under the repository title.
+4. Click on 'pages' shown on the left side navigation bar.
+5. Under the 'build and deployment' title, and the 'branch' heading, use the drop down and select 'main'.
+6. Select the /root folder to deply from.
+7. Click "Save", then wait for it to be deployed. Please note it can take some time for the page to be fully deployed.
+8. The URL for the deployed site will be shown above 'source'.
+
+### **Local Development**
+
+### **Fork**
+
+To Fork the repository, please follow the below steps - 
+
+1. Login to GitHub.
+2. Select the repository for the project you wish to fork.
+3. Click the fork botton in the top right-hand corner.
+
+### **Clone**
+
+To clone the repository, please follow thw below steps - 
+
+1. Login to GitHub.
+2. Select the repository for the project you wish to clone.
+3. Click on the code button and choose whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open a new terminal in the IDE used and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3 then press enter.
+
+## **Credits**
+
+

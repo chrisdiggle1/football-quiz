@@ -155,7 +155,6 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('wrong-counter').innerText = ++oldScore;
     }
 
-    // Call the startQuiz function when the DOM is loaded
-    startQuiz();
-
 });
+
+startQuiz();
