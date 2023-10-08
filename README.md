@@ -225,3 +225,56 @@ I have added a Favicon to site as a little extra touch to display a little image
 
 ### Languages
 
+* HTML
+* CSS
+* JavaScript
+
+### Frameworks and tools
+
+- [Git](https://git-scm.com/) - For version control.
+- [Github](https://github.com/) - To save and store the files for the site.
+- [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
+- [CodeAnywhere](https://app.codeanywhere.com/) - The cloud IDE used to write all my code.
+- [Google Fonts](https://fonts.google.com/) - Used to import the fonts used on the site.
+- [Font Awesome](https://fontawesome.com/) - The icons on the site are sourced from here.
+- [Am I Responsive?](http://ami.responsivedesign.is/) Used tp show the website image on a range of devices.
+- [Favicon.io](https://favicon.io/) - Used to create the favicon.
+- [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
+- [TinyPNG](https://tinypng.com/) - Used to compress images.
+- [Unsplash](https://unsplash.com) - Used to source the background image.
+- [Convertio](https://convertio.co/webp-converter/) - Used to conver the background image to webp.
+
+## Testing and Validation
+
+### W3C Markup Validation
+
+- The HTML files passed through the [W3C validator](https://validator.w3.org/) with no issues found.
+
+<details>
+<summary>Index.HTML Validation</summary>
+<img src="documentation/index.html-validator.png">
+</details>
+
+<br>
+
+<details>
+<summary>404.HTML Validation</summary>
+<img src="documentation/404.html-validation.png">
+</details>
+
+<br>
+
+### W3C Jigsaw CSS Validation
+
+- The CSS file passed through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found.
+
+<details>
+<summary>CSS Validation</summary>
+<img src="documentation/css-validation.png">
+</details>
+
+<br>
+
+
+
+
