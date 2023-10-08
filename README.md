@@ -66,7 +66,7 @@ This quiz is for anybody who wants to test their general football knowledge or j
 
 ### **Communication**
 
-The overall design of the site has been made very simple on purpose to help learn the very basics of JavaScript. When the user arrives on the site, the landing page shows 4 bullet points explaining what to expect with the quiz. Once the user clicks 'start quiz' the questions, answers and score are then displayed on the screen. The visual structureof the site makes it intuitive to navigate through the ten questions. The game displays the final score after answering the last question and gives the option to play the game again.
+The overall design of the site has been made very simple on purpose to help learn the very basics of JavaScript. When the user arrives on the site, the landing page shows 4 bullet points explaining what to expect with the quiz. Once the user clicks 'start quiz' the questions, answers and score are then displayed on the screen. The visual structure of the site makes it intuitive to navigate through the ten questions. The game displays the final score after answering the last question and gives the option to play the game again.
 
 ### **User Goals**
 
@@ -409,3 +409,5 @@ I would like to thank the below during my time doing this project -
 - My Wife and Kids for their always continued support.
 
 - The Slack community for when you need help, a laugh or to help somebody else out. 
+
+- The Site has been built for educational purposes only.
