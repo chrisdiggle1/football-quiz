@@ -1,7 +1,3 @@
-// Certain aspects of the code were guided and inspired from the Love Maths walkthrough on the Code Institutes LMS.
-// Elements of code were taken and adapted from - Web Dev Simplified - https://www.youtube.com/watch?v=riDzcEQbX6k
-// The questions for the quiz were taken from - https://www.quiztriviagames.com/football-quiz/
-
 //Wait for the DOM to finish loading before running the game.
 //Constants for DOM elements.
 document.addEventListener('DOMContentLoaded', function () {

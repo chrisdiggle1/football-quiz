@@ -387,4 +387,25 @@ To clone the repository, please follow thw below steps -
 
 ## **Credits**
 
+### **Code**
 
+- The basic structure of the quiz code used was inspired by YouTube videos by [Easy Tutorials](https://www.youtube.com/watch?v=PBcqGxrr9g8) and [Web Dev Simplified](https://www.youtube.com/watch?v=riDzcEQbX6k)
+- Certain aspects of the code were inspired by the Love Maths Walkthrough Project from the Code institute.
+
+### **Images**
+
+- The background image of a football pitch, football and players boots was sourced from Unsplash and the author is [Emilio Garcia](https://unsplash.com/photos/AWdCgDDedH0)
+
+### **Others**
+
+- The questions used in the quiz were sourced from [Quiz Trivia Games](https://www.quiztriviagames.com/football-quiz/)
+
+### **Acknowledgements**
+
+I would like to thank the below during my time doing this project -
+
+- The Code Institute Student Care for allowing me time off the course for personal reasons.
+
+- My Wife and Kids for their always continued support.
+
+- The Slack community for when you need help, a laugh or to help somebody else out. 
