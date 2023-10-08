@@ -54,33 +54,33 @@ This is a football trivia quiz for any football fans who would like to test thei
         - [Others](#others)
         - [Acknowledgements](#acknowledgements)
 
-## User Experience UX
+## **User Experience UX**
 
-### Site Purpose
+### **Site Purpose**
 
 The quiz is designed to challenge users on general football trivia. There are 10 questions to answer, and for each question, the user is informed immediately if they answered the question correctly or not. When the user selects an answer, if they are correct the answer will turn green and the 'correct' counter underneath will increment by one. If the user gets the answer wrong, the selected answer will highlight red, the correct answer will be shown in green and the 'incorrect' counter will increment by one. Once the user has answered all 10 questions, a message is displayed on the screen displaying the correct number of answers and asking if they would like to take the quiz again.
 
-### Target Audience
+### **Target Audience**
 
 This quiz is for anybody who wants to test their general football knowledge or just wants to have a bit of fun to pass some time.
 
-### Communication
+### **Communication**
 
 The overall design of the site has been made very simple on purpose to help learn the very basics of JavaScript. When the user arrives on the site, the landing page shows 4 bullet points explaining what to expect with the quiz. Once the user clicks 'start quiz' the questions, answers and score are then displayed on the screen. The visual structureof the site makes it intuitive to navigate through the ten questions. The game displays the final score after answering the last question and gives the option to play the game again.
 
-### User Goals
+### **User Goals**
 
 As a user taking the quiz, I want to be challenged on my knowledge of football and also learn the answers to the questions I got wrong. I want to be entertained for a brief time and know my final score at the end. Once the quiz has finished I would like the option to play again and see if I learnt the correct answers from the ones I got incorrect on the previous go.
 
-### Future Implementations
+### **Future Implementations**
 
 My future plans for the site are to add a lot more questions, with the questions displaying in a random order and have 3 different difficulty levels so the quiz would be more suitable for a wider audience. I would also like to add a countdown timer to each question to add more fun and for the user to have to think quicker.
 
-## Design
+## **Design**
 
-### Website Structure
+### **Website Structure**
 
-### Balsamiq Wireframes
+### **Balsamiq Wireframes**
 
 <details>
 <summary>Questions Page Desktop</summary>
@@ -124,13 +124,13 @@ My future plans for the site are to add a lot more questions, with the questions
 
 <br>
 
-### Colour Scheme
+### **Colour Scheme**
 
 The colour scheme for the qame are were dicatated by the green background representing a football pitch. The white and blue I found were best for visualisation overall to display the questions and highlighting the correct and incorrect answers using red and green.
 
 ![palette of the colours used on the site](/documentation/colour-scheme.png)
 
-### Typography
+### **Typography**
 
 The two fonts used in the site have been sourced from the Google Fonts library: 
 
@@ -142,13 +142,13 @@ Poppins for the questions and answers
 
 ![image of the font used for the questions and answers](/documentation/text-font.png)
 
-### Imagery
+### **Imagery**
 
 The background image of a football, pitch and players boots was sourced from unsplash and the creator is [Emilio Garcia](https://unsplash.com/photos/AWdCgDDedH0)
 
-## Page Features
+## **Page Features**
 
-### Landing Page
+### **Landing Page**
 
 The landing page contains the below features - 
 
@@ -162,7 +162,7 @@ The landing page contains the below features -
 <img src="documentation/landing-page.png">
 </details>
 
-### Quiz Area 
+### **Quiz Area**
 
 The Quiz area contains the below features - 
 
@@ -179,7 +179,7 @@ The Quiz area contains the below features -
 <img src="documentation/quiz-area.png">
 </details>
 
-### Final Score Screen
+### **Final Score Screen**
 
 The final Score Screen displays the below features - 
 
@@ -194,7 +194,7 @@ The final Score Screen displays the below features -
 <img src="documentation/final-score.png">
 </details>
 
-### Social Links
+### **Social Links**
 
 Links to social media sites are in the footer area. The icons of Instagram, Facebook, Twitter and Youtube are all clickable and open a new tab once clicked. Social media links have been used to serve the purpose of giving the user the chance of potentially reaching out and connect with the author of the site. As the website has educational purposes only, the links open the homepages of the respective social media websites.
 
@@ -203,7 +203,7 @@ Links to social media sites are in the footer area. The icons of Instagram, Face
 <img src="documentation/social-media.png">
 </details>
 
-### 404 Page
+### **404 Page**
 
 A basic custom 404.html error page has been included. The page informs the user that the URL they have input is incorrect by displaying the message: 404 - Page Not Found! Please check the URL is correct. I have inlcuded a link that takes the user back to the landing page of the site.
 
@@ -212,7 +212,7 @@ A basic custom 404.html error page has been included. The page informs the user 
 <img src="documentation/404-error.png">
 </details>
 
-### Favicon
+### **Favicon**
 
 I have added a Favicon to site as a little extra touch to display a little image on the tab. The Favicon contains the letters 'FQ' for football quiz and uses the blue and white colours that are used in the question areaof the site.
 
@@ -221,15 +221,15 @@ I have added a Favicon to site as a little extra touch to display a little image
 <img src="documentation/favicon.png">
 </details>
 
-## Technologies Used
+## **Technologies Used**
 
-### Languages
+### **Languages**
 
-* HTML
-* CSS
-* JavaScript
+- HTML
+- CSS
+- JavaScript
 
-### Frameworks and tools
+### **Frameworks and tools**
 
 - [Git](https://git-scm.com/) - For version control.
 - [Github](https://github.com/) - To save and store the files for the site.
@@ -244,9 +244,9 @@ I have added a Favicon to site as a little extra touch to display a little image
 - [Unsplash](https://unsplash.com) - Used to source the background image.
 - [Convertio](https://convertio.co/webp-converter/) - Used to conver the background image to webp.
 
-## Testing and Validation
+## **Testing and Validation**
 
-### W3C Markup Validation
+### **W3C Markup Validation**
 
 - The HTML files passed through the [W3C validator](https://validator.w3.org/) with no issues found.
 
@@ -264,7 +264,7 @@ I have added a Favicon to site as a little extra touch to display a little image
 
 <br>
 
-### W3C Jigsaw CSS Validation
+### **W3C Jigsaw CSS Validation**
 
 - The CSS file passed through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found.
 
@@ -275,6 +275,76 @@ I have added a Favicon to site as a little extra touch to display a little image
 
 <br>
 
+### **JSHint JavaScript Validation**
 
+- The JS files passed through [JSHint](https://jshint.com/) with no issues found.
 
+<details>
+<summary>JS Questions Validation</summary>
+<img src="documentation/questions.js-validator.png">
+</details>
 
+<br>
+
+<details>
+<summary>JS Validation</summary>
+<img src="documentation/script.js-validator.png">
+</details>
+
+<br>
+
+### **Lighthouse Tests**
+
+- The page has an excellent Accessibility rating in Lighthouse for both desktop and mobile.
+
+<details>
+<summary>Desktop Lighthouse Test</summary>
+<img src="documentation/desktop-lighthouse.png">
+</details>
+
+<br>
+
+<details>
+<summary>Mobile Lighthouse Test</summary>
+<img src="documentation/mobile-lighthouse.png">
+</details>
+
+- The site was tested in Chrome, Edge and Safari without any issues.
+- All links open to external pages as intended.
+
+<br>
+
+### **WAVE Tests**
+
+- The WAVE test passed with no errors or contrast errors.
+
+<details>
+<summary>Wave Test</summary>
+<img src="documentation/wave-test.png">
+</details>
+
+<br>
+
+### **Feature Testing**
+
+| Test                      | Expected                                  | Pass/Fail |
+| ---| ---| ---|
+| Open Landing Page | An event listener waits for the DOM to finish Loading before running the game. The landing page is displayed showing the user brief details about the quiz and a start button to start the quiz. | Pass |
+| Click the Start Quiz button | When hovering over the 'Start Quiz' button, the colours reverse, the blue text turns white and the white background turns blue. The mouse cursor changes to a pointer. When the button is clicked the page then displays the first question and multiple answers. | Pass |
+| Hovering over an answer | When hovering over an answer, the colours are reversed like the Start Quiz button and the mouser cursor also changes to a pointer again. | Pass |
+| Selecting the Correct Answer | When the correct answer is selected, the answer button turns green and the 'Next Question' button is displayed| Pass |
+| Selecting an incorrect answer | When an incorrect answer is selected the button turns red and the corrcect answer is immediately highlighted green and the 'Next Question' button is displayed. The answer can't be changed once selected. | Pass | 
+| Click the Next Question button |  The quiz area is cleared. The subsequent question is displayed together with the four possible answers. The numbering of the questions increments by one each question. The 'Next Question' button is not displayed until an answer has been selected. | Pass |
+| The 'Correct' counter | When a correct answer is selected, the Correct counter displayed under the question in green increments by 1. | Pass |
+| The 'Incorrect' counter | When an incorrect answer is selected, the Inorrect counter displayed under the question in red increments by 1. | Pass |
+| Clicking the Next Question Button on question 10 | When the user clicks the 'Next Question' button on question 10, the quiz are is cleared and the final score is displayed with a statement confirming how many goals the user scored from 10 shots. The 'Next Question' button changes to a button asking the user if they 'Fancy Another Shot'. The final score tally is displayed show the total 'Correct' and 'Incorrect' answers. | Pass |
+| Click the 'Fancy another shot' button | When the user clicks the 'Fancy another shot' button, the quiz area is loaded again displaying the first question with the 4 possible answers. | Pass |
+| Run through the quiz by selecting random answers one after the other until the last one | The question number increments by one each question. | Pass |
+| Click the Instagram Icon | When clicked, the user will be directed to the Instagram homepage in a new tab. | Pass |
+| Click the Facebook Icon | When clicked, the user will be directed to the Facebook homepage in a new tab. | Pass |
+| Click the Twitter Icon | When clicked, the user will be directed to the Twitter homepage in new tab. | Pass |
+| Click the Youtube Icon | When clicked, the user will be directed to the Youtube homepage in new tab. | Pass |
+
+## **Bugs**
+
+### **Resolved Bugs**
