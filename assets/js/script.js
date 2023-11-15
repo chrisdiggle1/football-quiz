@@ -47,6 +47,11 @@ function showDifficultySelection() {
     questionContainer.style.display = 'none'; // Hide the question container
 }
 
+// Event listeners for difficulty buttons
+easyButton.addEventListener('click', () => startGame('easy'));
+mediumButton.addEventListener('click', () => startGame('medium'));
+hardButton.addEventListener('click', () => startGame('hard'));
+
 /**
  * This function is to show the current question and answer choices.
  * The function retrieves the question from the question array, based on the questions index.
