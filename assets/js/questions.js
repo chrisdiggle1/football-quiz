@@ -1,4 +1,4 @@
-// An array that holds all the questions and possible answers, including the corrent answer.
+// An array that holds all the questions and possible answers, including the correct answer.
 
 const questions = {
     easy: [
@@ -100,6 +100,7 @@ const questions = {
             ]
         },
     ],
+
     medium: [
         {
             question: "Which country has won the most FIFA World Cup titles?",
@@ -200,5 +201,109 @@ const questions = {
                 { text: "Gerd Müller", correct: false },
             ]
         },
+    ],
+
+    hard: [
+
+        {
+            question: "Who was the first player to reach 100 caps for England?",
+            answers: [
+                { text: "Bobby Charlton", correct: false },
+                { text: "David Beckham", correct: false },
+                { text: "Billy Wright", correct: true },
+                { text: "Peter Shilton", correct: false },
+            ]
+        },
+
+        {
+            question: "Which player scored the fastest hat-trick in the Premier League?",
+            answers: [
+                { text: "Robbie Fowler", correct: false },
+                { text: "Sergio Aguero", correct: false },
+                { text: "Sadio Mane", correct: true },
+                { text: "Alan Shearer", correct: false },
+            ]
+        },
+
+        {
+            question: "What year was the 'Golden Goal' rule, used in major tournaments, abolished by FIFA?",
+            answers: [
+                { text: "2002", correct: false },
+                { text: "2004", correct: true },
+                { text: "2006", correct: false },
+                { text: "2010", correct: false },
+            ]
+        },
+
+        {
+            question: "Which African country was the first to qualify for a FIFA World Cup quarter-final?",
+            answers: [
+                { text: "Nigeria", correct: false },
+                { text: "Cameroon", correct: true },
+                { text: "Senegal", correct: false },
+                { text: "Ghana", correct: false },
+            ]
+        },
+
+        {
+            question: "Which club won the first ever European Cup (now UEFA Champions League) in 1956?",
+            answers: [
+                { text: "Real Madrid", correct: true },
+                { text: "AC Milan", correct: false },
+                { text: "Bayern Munich", correct: false },
+                { text: "Manchester United", correct: false },
+            ]
+        },
+
+        {
+            question: "Who is the only player to have won the Champions League with three different clubs?",
+            answers: [
+                { text: "Cristiano Ronaldo", correct: false },
+                { text: "Clarence Seedorf", correct: true },
+                { text: "Samuel Eto'o", correct: false },
+                { text: "Xabi Alonso", correct: false },
+            ]
+        },
+
+        {
+            question: "What was the original name of the FIFA World Cup Trophy?",
+            answers: [
+                { text: "Rimet Trophy", correct: false },
+                { text: "Maracanã Trophy", correct: false },
+                { text: "Jules Rimet Trophy", correct: true },
+                { text: "FIFA Trophy", correct: false },
+            ]
+        },
+
+        {
+            question: "Which country's national team is nicknamed 'La Roja'?",
+            answers: [
+                { text: "Portugal", correct: false },
+                { text: "Chile", correct: false },
+                { text: "Mexico", correct: false },
+                { text: "Spain", correct: true },
+            ]
+        },
+
+        {
+            question: "In what year did UEFA introduce the Financial Fair Play Regulations?",
+            answers: [
+                { text: "2010", correct: true },
+                { text: "2008", correct: false },
+                { text: "2015", correct: false },
+                { text: "2012", correct: false },
+            ]
+        },
+
+        {
+            question: "Who was the first goalkeeper to win the UEFA Men's Player of the Year Award?",
+            answers: [
+                { text: "Gianluigi Buffon", correct: false },
+                { text: "Iker Casillas", correct: false },
+                { text: "Manuel Neuer", correct: true },
+                { text: "Peter Schmeichel", correct: false },
+            ]
+        },
+
     ]
 };
