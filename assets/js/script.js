@@ -44,8 +44,13 @@ function startQuiz() {
 function showDifficultySelection() {
     const homeArea = document.querySelector('.home-area');
     homeArea.classList.add('hidden');
-    difficultyContainer.style.display = 'block'; // Show the difficulty selection
-    questionContainer.style.display = 'none'; // Hide the question container
+    difficultyContainer.style.display = 'block'; 
+    questionContainer.style.display = 'none'; 
+
+    currentQuestionIndex = 0;
+    score = 0;
+    rightCounter.innerText = 0;
+    wrongCounter.innerText = 0;
 }
 
 // Event listeners for difficulty buttons
@@ -162,7 +167,7 @@ nextButton.addEventListener('click', () => {
     if (currentQuestionIndex < selectedQuestions.length) {
         clickNextButton();
     } else {
-        startQuiz();
+        showDifficultySelection();
     }
 })
 
