@@ -96,6 +96,11 @@ div ul {
     display: none;
 }
 
+/* Difficulty selection page*/
+#difficulty-container {
+    display: none;
+}
+
 /* Game area */
 .question-container.hidden {
     display: flex;
