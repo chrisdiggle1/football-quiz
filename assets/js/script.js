@@ -11,6 +11,7 @@ const answerButtons = document.getElementById('ans-btn');
 const nextButton = document.getElementById('nxt-btn');
 const rightCounter = document.getElementById('right-counter');
 const wrongCounter = document.getElementById('wrong-counter');
+let selectedQuestions = [];
 
 //Variables to track the score index.
 let currentQuestionIndex = 0;
@@ -52,6 +53,20 @@ easyButton.addEventListener('click', () => startGame('easy'));
 mediumButton.addEventListener('click', () => startGame('medium'));
 hardButton.addEventListener('click', () => startGame('hard'));
 
+/** Function to set up the quiz with the appropriate set of questions based on the chosen difficulty. 
+ * Starts the quiz by displaying the first question.
+ */
+function startGame(difficulty) {
+    difficultyContainer.style.display = 'none';
+    questionContainer.style.display = 'block';
+
+    // Retrieve questions based on difficulty
+    selectedQuestions = questions[difficulty];
+    currentQuestionIndex = 0;
+    showQuestion();
+
+}
+
 /**
  * This function is to show the current question and answer choices.
  * The function retrieves the question from the question array, based on the questions index.
@@ -60,7 +75,7 @@ hardButton.addEventListener('click', () => startGame('hard'));
  */
 function showQuestion() {
     resetState();
-    let currentQuestion = questions[currentQuestionIndex];
+    let currentQuestion = selectedQuestions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 
@@ -116,11 +131,11 @@ function selectAnswer(event) {
  * The function displays the final score and provides the option to play again.
  * The quiz is reset if the user selects to play again.
  */
-function showScore() {
+ function showScore() {
     resetState();
-    questionElement.innerHTML = `You scored ${score} goals from ${questions.length} shots!`;
+    questionElement.innerHTML = `You scored ${score} goals from ${selectedQuestions.length} shots!`;
     nextButton.innerHTML = 'Fancy another shot?';
-    nextButton.style.display = 'block'
+    nextButton.style.display = 'block';
 }
 
 /**
@@ -128,9 +143,9 @@ function showScore() {
  * It increments the current question index and checks if any more questions are remaining.
  * The next question will be displayed if there are any, if not, it will show the call the show score function.
  */
-function clickNextButton() {
+ function clickNextButton() {
     currentQuestionIndex++;
-    if (currentQuestionIndex < questions.length) {
+    if (currentQuestionIndex < selectedQuestions.length) {
         showQuestion();
     } else {
         showScore();
