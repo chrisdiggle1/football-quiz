@@ -17,7 +17,7 @@ let currentQuestionIndex = 0;
 let score = 0;
 
 //Opens the main quiz game.
-startButton.addEventListener('click', startQuiz);
+startButton.addEventListener('click', showDifficultySelection);
 
 /**
  * This function initiates the quiz, hiding the home page and displaying the questions.
@@ -37,6 +37,14 @@ function startQuiz() {
     wrongCounter.innerText = 0;
     nextButton.innerHTML = 'Next Question';
     showQuestion();
+}
+
+// Function to show the difficulty selection
+function showDifficultySelection() {
+    const homeArea = document.querySelector('.home-area');
+    homeArea.classList.add('hidden');
+    difficultyContainer.style.display = 'block'; // Show the difficulty selection
+    questionContainer.style.display = 'none'; // Hide the question container
 }
 
 /**
