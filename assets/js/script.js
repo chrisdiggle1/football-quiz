@@ -1,6 +1,10 @@
 //Programme variables.
 
 const startButton = document.getElementById('start-btn');
+const difficultyContainer = document.getElementById('difficulty-container');
+const easyButton = document.getElementById('easy-btn');
+const mediumButton = document.getElementById('med-btn');
+const hardButton = document.getElementById('hard-btn');
 const questionContainer = document.getElementById('question-container');
 const questionElement = document.getElementById('question');
 const answerButtons = document.getElementById('ans-btn');
