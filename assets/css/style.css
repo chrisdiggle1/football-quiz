@@ -101,6 +101,15 @@ div ul {
     display: none;
 }
 
+.difficulty-area {
+    font-size: 25px;
+    border: 0.3rem solid;
+    background: azure;
+    margin: 50px auto 0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
 /* Game area */
 .question-container.hidden {
     display: flex;
@@ -260,7 +269,7 @@ div ul {
 
     .home-area,
     .question-container.hidden,
-    .quiz {
+    .quiz, .difficulty-area {
         margin: 10px auto 0;
         padding: 10px;
         max-width: 100rem;
@@ -335,7 +344,7 @@ div ul {
 
     .home-area,
     .question-container.hidden,
-    .quiz {
+    .quiz, .difficulty-area {
         margin: 30px auto 0;
         padding: 20px;
         max-width: 80%;
@@ -405,7 +414,7 @@ div ul {
 
     .home-area,
     .question-container.hidden,
-    .quiz {
+    .quiz, .difficulty-area {
         margin: 20px auto 0;
     }
 
@@ -442,7 +451,7 @@ div ul {
 
     .home-area,
     .question-container.hidden,
-    .quiz {
+    .quiz, .difficulty-area {
         margin: 15px auto 0;
         padding: 15px;
     }
@@ -500,7 +509,7 @@ div ul {
 
     .home-area,
     .question-container.hidden,
-    .quiz {
+    .quiz, .difficulty-area {
         margin: 10px auto 0;
         padding: 10px;
     }
