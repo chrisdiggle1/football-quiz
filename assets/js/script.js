@@ -159,7 +159,7 @@ function selectAnswer(event) {
  * if there are no more questions, the final score and option to play again is displayed.
  */
 nextButton.addEventListener('click', () => {
-    if (currentQuestionIndex < questions.length) {
+    if (currentQuestionIndex < selectedQuestions.length) {
         clickNextButton();
     } else {
         startQuiz();
