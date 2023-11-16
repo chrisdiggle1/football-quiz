@@ -1,5 +1,4 @@
 //Programme variables.
-
 const startButton = document.getElementById('start-btn');
 const difficultyContainer = document.getElementById('difficulty-container');
 const easyButton = document.getElementById('easy-btn');
@@ -43,12 +42,16 @@ function startQuiz() {
     showQuestion();
 }
 
-// Function to show the difficulty selection
+/**
+ * Function to show the difficulty selection. The home area is hidden and displays the difficulty
+ * selection screen, the question area is hidden and the game counters are reset. This gets everything
+ * ready for the user to choose a difficulty and start a new quiz.
+ */
 function showDifficultySelection() {
     const homeArea = document.querySelector('.home-area');
     homeArea.classList.add('hidden');
-    difficultyContainer.style.display = 'block'; 
-    questionContainer.style.display = 'none'; 
+    difficultyContainer.style.display = 'block';
+    questionContainer.style.display = 'none';
 
     currentQuestionIndex = 0;
     score = 0;
@@ -139,7 +142,7 @@ function selectAnswer(event) {
  * The function displays the final score and provides the option to play again.
  * The quiz is reset if the user selects to play again.
  */
- function showScore() {
+function showScore() {
     resetState();
     questionElement.innerHTML = `You scored ${score} goals from ${selectedQuestions.length} shots!`;
     nextButton.innerHTML = 'Fancy another shot?';
@@ -151,7 +154,7 @@ function selectAnswer(event) {
  * It increments the current question index and checks if any more questions are remaining.
  * The next question will be displayed if there are any, if not, it will show the call the show score function.
  */
- function clickNextButton() {
+function clickNextButton() {
     currentQuestionIndex++;
     if (currentQuestionIndex < selectedQuestions.length) {
         showQuestion();
@@ -188,4 +191,28 @@ function incrementScore() {
 function incrementWrongAnswer() {
     let oldScore = parseInt(document.getElementById('wrong-counter').innerText);
     document.getElementById('wrong-counter').innerText = ++oldScore;
+}
+
+/**
+ * This function is a countdown timer that starts from 10 (const variable timeLimit).
+ * The timer is displayed on screen with the seconds ticking down.
+ */
+function startTimer() {
+    let timeRemaining = timeLimit;
+    timerElement.innerText = `Time Left: ${timeRemaining}`;
+
+    countdown = setInterval(() => {
+        timeRemaining--;
+        timerElement.innerText = `Time Left: ${timeRemaining}`;
+
+        if (timeRemaining <= 0) {
+            clearInterval(countdown);
+        }
+    }, 1000);
+}
+
+
+// This function stops the timer from ticking down any further.
+function stopTimer() {
+    clearInterval(countdown);
 }
