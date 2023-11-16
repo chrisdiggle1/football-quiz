@@ -12,6 +12,9 @@ const nextButton = document.getElementById('nxt-btn');
 const rightCounter = document.getElementById('right-counter');
 const wrongCounter = document.getElementById('wrong-counter');
 let selectedQuestions = [];
+const timerElement = document.getElementById('timer');
+const timeLimit = 10;
+let countdown;
 
 //Variables to track the score index.
 let currentQuestionIndex = 0;
