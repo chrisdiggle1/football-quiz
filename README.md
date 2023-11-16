@@ -27,6 +27,7 @@ This is a football trivia quiz for any football fans who would like to test thei
         - [Imagery](#imagery)
     - [Page Features](#page-features)
         - [Landing Page](#landing-page)
+        - [Difficulty Level Page](#difficulty-level-page)
         - [Quiz Area](#quiz-area)
         - [Final Score Screen](#final-score-screen)
         - [Social Links](#social-links)
@@ -160,6 +161,19 @@ The landing page contains the below features -
 <details>
 <summary>View The Landing Page</summary>
 <img src="documentation/landing-page.png">
+</details>
+
+### **Difficulty Level Page**
+
+The difficulty level displays the below Choices for the user to choose from - 
+
+* Easy - The user will be to test their knowledge with 10 easy football related questions
+* Medium - The user will be to test their knowledge with 10 medium football related questions
+* Hard - The user will be to test their knowledge with 10 hard football related questions
+
+<details>
+<summary>View The Difficulty Choice Page</summary>
+<img src="documentation/difficulty-level.png">
 </details>
 
 ### **Quiz Area**
