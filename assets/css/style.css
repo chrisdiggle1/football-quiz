@@ -173,6 +173,10 @@ div ul {
     color: azure;
 }
 
+#timer {
+    padding-bottom: 30px;
+}
+
 /* Next question button */
 #nxt-btn {
     background: rgb(0, 0, 94);
@@ -216,8 +220,8 @@ div ul {
 #footer {
     bottom: 0;
     font-size: 20px;
-    height: 12.5rem;
-    position: absolute;
+    height: auto;
+    position: relative;
     text-align: center;
     width: 100%;
 }
