@@ -86,6 +86,7 @@ function startGame(difficulty) {
  */
 function showQuestion() {
     resetState();
+    timerElement.style.display = 'block';
     let currentQuestion = selectedQuestions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
@@ -146,6 +147,7 @@ function selectAnswer(event) {
  */
 function showScore() {
     resetState();
+    timerElement.style.display = 'none';
     questionElement.innerHTML = `You scored ${score} goals from ${selectedQuestions.length} shots!`;
     nextButton.innerHTML = 'Fancy another shot?';
     nextButton.style.display = 'block';
