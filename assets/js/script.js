@@ -71,6 +71,8 @@ function startGame(difficulty) {
     difficultyContainer.style.display = 'none';
     questionContainer.style.display = 'block';
 
+    nextButton.innerHTML = 'Next Question';
+
     // Retrieve questions based on difficulty
     selectedQuestions = questions[difficulty];
     currentQuestionIndex = 0;
