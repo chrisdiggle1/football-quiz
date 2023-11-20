@@ -186,6 +186,7 @@ The Quiz area contains the below features -
 * The answers will highlight green of correct and red if incorrect
 * A correct and Incorrect score which increment by one depending on the answer you give
 * The 'Next Question' button once an answer has been selected
+* A 10 second timer for each question
 * Links to social media websites
 
 <details>
@@ -363,10 +364,12 @@ I have added a Favicon to site as a little extra touch to display a little image
 
 ### **Resolved Bugs**
 
-The site was opening up straight to the questions and answer pages and not the landing page.
+| Problem                       | Fix   |
+| ---| ---|
+| The site was opening up straight to the questions and answer pages and not the landing page. | I added in an Event Listener for DOMContentLoaded to prevent the startQuiz function from executing before the HTML has finished loading. |
+| Console error A console error generated on line 156 on the script file, startQuiz is not defined.  | Removed the DomContentLoaded event listener entirely as the script is loaded at the end of the HTML file. |
+| If the user selected 'Fancy another shot' at the end of their game, the next question button had changed to 'Fancy another shot' for every question. | Reset the 'Next Question' button to its original state for the start of a new game by adding nextButton.innerHTML = 'Next Question'; to the startGame function. |
 
-I added in an Event Listener for DOMContentLoaded to prevent the startQuiz function from
-executing before the HTML has finished loading.
 
 ## **Deployment**
 
