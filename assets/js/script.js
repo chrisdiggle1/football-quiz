@@ -100,6 +100,7 @@ function showQuestion() {
         }
         button.addEventListener('click', selectAnswer);
     });
+    startTimer();
 }
 
 /**
@@ -119,6 +120,7 @@ function resetState() {
  * Disables all the answer buttons and displays the 'Next Question button once an answer has been selected. 
  */
 function selectAnswer(event) {
+    stopTimer();
     const selectedBtn = event.target;
     const isCorrect = selectedBtn.getAttribute('data-correct') === 'true';
     if (isCorrect) {
