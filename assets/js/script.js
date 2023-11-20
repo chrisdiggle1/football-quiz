@@ -209,6 +209,7 @@ function startTimer() {
 
         if (timeRemaining <= 0) {
             clearInterval(countdown);
+            markQuestionIncorrect();
         }
     }, 1000);
 }
@@ -217,4 +218,24 @@ function startTimer() {
 // This function stops the timer from ticking down any further.
 function stopTimer() {
     clearInterval(countdown);
+}
+
+
+/**
+ * This function shows which answers are right and wrong if the player doesn't answer in time,
+ * increments the incorrect counter if no question is answered and readys the game for the 
+ * next question. 
+ */
+function markQuestionIncorrect() {
+    Array.from(answerButtons.children).forEach(button => {
+        if (button.dataset.correct === 'true') {
+            button.classList.add('correct');
+        } else {
+            button.classList.add('incorrect');
+        }
+        button.disabled = true;
+    })
+
+    incrementWrongAnswer();
+    nextButton.style.display = 'block';
 }
