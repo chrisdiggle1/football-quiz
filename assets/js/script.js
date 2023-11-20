@@ -157,6 +157,7 @@ function showScore() {
  * The next question will be displayed if there are any, if not, it will show the call the show score function.
  */
 function clickNextButton() {
+    stopTimer();
     currentQuestionIndex++;
     if (currentQuestionIndex < selectedQuestions.length) {
         showQuestion();
