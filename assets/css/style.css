@@ -177,6 +177,22 @@ div ul {
     padding-bottom: 30px;
 }
 
+#progress-bar {
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 94);
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    position: relative; 
+}
+
+#progress-text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
 /* Next question button */
 #nxt-btn {
     background: rgb(0, 0, 94);
