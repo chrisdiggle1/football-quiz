@@ -296,14 +296,30 @@ I have added a Favicon to site as a little extra touch to display a little image
 
 <details>
 <summary>JS Questions Validation</summary>
-<img src="documentation/questions.js-validator.png">
+<img src="documentation/questions-js-validator.png">
 </details>
 
 <br>
 
 <details>
 <summary>JS Validation</summary>
-<img src="documentation/script.js-validator.png">
+<img src="documentation/script-js-validator.png">
+</details>
+
+<br>
+
+- There are no errors or issues in the console.
+
+<details>
+<summary>Console</summary>
+<img src="documentation/console.png">
+</details>
+
+<br>
+
+<details>
+<summary>No Issues</summary>
+<img src="documentation/no-issues.png">
 </details>
 
 <br>
@@ -360,6 +376,8 @@ I have added a Favicon to site as a little extra touch to display a little image
 | Click the Twitter Icon | When clicked, the user will be directed to the Twitter homepage in new tab. | Pass |
 | Click the Youtube Icon | When clicked, the user will be directed to the Youtube homepage in new tab. | Pass |
 
+<br>
+
 ## **Bugs**
 
 ### **Resolved Bugs**
@@ -370,6 +388,7 @@ I have added a Favicon to site as a little extra touch to display a little image
 | Console error A console error generated on line 156 on the script file, startQuiz is not defined.  | Removed the DomContentLoaded event listener entirely as the script is loaded at the end of the HTML file. |
 | If the user selected 'Fancy another shot' at the end of their game, the next question button had changed to 'Fancy another shot' for every question. | Reset the 'Next Question' button to its original state for the start of a new game by adding nextButton.innerHTML = 'Next Question'; to the startGame function. |
 
+<br>
 
 ## **Deployment**
 
@@ -402,6 +421,8 @@ To clone the repository, please follow thw below steps -
 4. Open a new terminal in the IDE used and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3 then press enter.
 
+<br>
+
 ## **Credits**
 
 ### **Code**
@@ -428,3 +449,8 @@ I would like to thank the below during my time doing this project -
 - The Slack community for when you need help, a laugh or to help somebody else out. 
 
 - The Site has been built for educational purposes only.
+
+- Mosh Hamedani for providing a great learning platform which I subscribed to, so I can do the Ulitmate JavaScript course as extra learning to gain better understanding and knowledge of JavaScript.
+
+- The previous assessors valuable feedback which I have taken everything on board.
+

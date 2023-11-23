@@ -196,7 +196,7 @@ nextButton.addEventListener('click', () => {
     } else {
         showDifficultySelection();
     }
-})
+});
 
 /**
  * This function obtains the the current score from the DOM and increments it by 1.
@@ -253,7 +253,7 @@ function markQuestionIncorrect() {
             button.classList.add('incorrect');
         }
         button.disabled = true;
-    })
+    });
 
     incrementWrongAnswer();
     nextButton.style.display = 'block';
