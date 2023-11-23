@@ -88,6 +88,7 @@ function startGame(difficulty) {
  */
 function showQuestion() {
     resetState();
+    updateProgressBar();
     timerElement.style.display = 'block';
     let currentQuestion = selectedQuestions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
@@ -104,6 +105,19 @@ function showQuestion() {
         button.addEventListener('click', selectAnswer);
     });
     startTimer();
+}
+
+/**
+ * This function updates the width of the progress bar based on the current question index,
+ * by calculating the progress as a percentage of the total questions and applies it to
+ * the progress bars width.
+ */
+function updateProgressBar() {
+    const totalQuestions = selectedQuestions.length;
+    const progressPercentage = ((currentQuestionIndex + 1) / totalQuestions) * 100;
+    document.getElementById('progress-bar').style.width = `${progressPercentage}%`;
+
+    document.getElementById('progress-text').innerText = `${progressPercentage.toFixed(0)}%`;
 }
 
 /**
